@@ -1,0 +1,16 @@
+h1 {
+    color: blue;
+}
+
+/* h3 {
+    color: red;
+    font-weight: italic;
+  } */
+  
+  body {
+    margin:4rem;
+  }
+  button {
+      margin-left: 4rem;
+    margin-top: 4rem;
+  }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link src="stylesheet" href="/css/stylestip.css">
+    
+</head>
+<body>
+<br>
+    <h1>Tip Calculator</h1>
+<input id="input" type="text" placeholder="Purchase price" size=10>
+<br>
+<br>
+<button id="calcButton15" class="btn btn-primary">15%</button>
+<button id="calcButton20" class="btn btn-primary">20%</button>
+<button id="calcButton25" class="btn btn-primary">25%</button>
+<h3 id="warning" hidden="true">That's not a number!</h3>
+<h2>Tip Amount: $<span id="tip">0.00</span></h2>
+
+<script src="/js/tip.js" type="module"></script>
+
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
